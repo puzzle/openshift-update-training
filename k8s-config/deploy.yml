@@ -23,7 +23,7 @@ spec:
         app: openshift-update-training
     spec:
       containers:
-      - image: quay.io/acend/openshift-update-training:latest
+      - image: quay.io/puzzle/openshift-update-training:latest
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
