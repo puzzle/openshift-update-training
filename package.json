@@ -1,0 +1,6 @@
+{
+  "name": "openshift-update-training",
+  "devDependencies": {
+    "markdownlint-cli": "0.26.0"
+  }
+}
