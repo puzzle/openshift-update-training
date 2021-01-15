@@ -1,5 +1,5 @@
 ---
-title: "3. Kubernetes and OpenShift differences"
+title: "3. OpenShift Pipelines"
 weight: 3
 sectionnumber: 3
 ---
