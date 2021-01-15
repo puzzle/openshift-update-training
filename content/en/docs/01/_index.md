@@ -13,6 +13,7 @@ Please make sure you completed [the setup](../../setup/) before you continue wit
 
 ## Login
 
+
 ### Login on the Web Console
 
 {{% alert title="Note" color="primary" %}}
@@ -63,7 +64,7 @@ Chances are that you will prefer one over the other, independent from what role 
 
 ### Task {{% param sectionnumber %}}.1: Developer view guided tour
 
-The view can be chosen by clicking on the button that either says **Developer** or **Administrator**. 
+The view can be chosen by clicking on the button that either says **Developer** or **Administrator**.
 Make sure you chose the **Developer** view.
 
 OpenShift offers a very quick guided tour: Click on the question mark button on the top right and choose **Guided Tour**.
