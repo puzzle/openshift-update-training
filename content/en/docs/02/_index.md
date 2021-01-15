@@ -4,8 +4,9 @@ weight: 2
 sectionnumber: 2
 ---
 
-Even though OpenShift is based on Kubernetes, there are some important differences.
-In this lab we are going to have a look at these differences.
+OpenShift 4 supports nearly all Kubernetes-native resources, which is not very surprising as OpenShift is built upon Kubernetes.
+However, this had not always been the case, especially in OpenShift version 3.9 and earlier.
+In this lab we are going to have a look at these differences and when to use which resource type.
 
 
 ## Life cycle and versions
