@@ -79,7 +79,7 @@ As a next step, create a Project:
 * Click on **+Add** in the menu on the left
 * In the center top to the left, there is a dropdown showing you the Project that is active
 * Click on this dropdown and choose **Create Project**
-* Choose an identifying name for your Project (e.g. your initials or name as a prefix)
+* Choose an identifying name for your Project, e.g. `-app` with your initials or name as prefix
 
 {{% alert title="Note" color="primary" %}}
 We are going to use `<project>` as a placeholder for your created Project.
