@@ -1,10 +1,10 @@
 ---
-title: "1. First steps"
+title: "1. Web console"
 weight: 1
 sectionnumber: 1
 ---
 
-In this lab, we will familiarize ourselves with the web console.
+In this lab, we will familiarize ourselves with OpenShift 4's new web console.
 
 {{% alert title="Warning" color="secondary" %}}
 Please make sure you completed [the setup](../../setup/) before you continue with this lab.
