@@ -31,13 +31,12 @@ Quick Starts are tutorials for speicific topics that advise and explain what to 
 The tutorial won't work if you only do what the instructions say.
 Here's what you have to do before starting:
 
-Create a new Project.
-Choose an identifying name, e.g. `-pipeline` with your initials or name as prefix.
+* Create a new Project. Choose an identifying name, e.g. `-pipeline` with your initials or name as prefix.
+* Create a PersistentVolumeClaim named, e.g., `pipeline` and 1GiB size.
 
-Create a PersistentVolumeClaim named, e.g., `pipeline` and 1GiB size.
 When the tutorial asks you to start the pipeline, under **Workspaces**, choose **PVC** and select the PVC you created beforehand.
 
-Now you are ready to start the tutorial.
+You are now ready to start the tutorial.
 {{% /alert %}}
 
 To start the tutorial, click on the question mark button on the top right and choose **Quick Starts**.
