@@ -24,20 +24,29 @@ For each Task, a Pod will be allocated and for each step inside this task, a Con
 
 ### Task {{% param sectionnumber %}}.1: Start the Quick Start
 
-With OpenShift 4.6, Red Hat introduced so-called _Quick Starts_.
+With OpenShift 4.6, [Red Hat introduced so-called _Quick Starts_](https://developers.redhat.com/blog/2020/11/20/new-developer-onboarding-features-in-red-hat-openshift-4-6/).
 Quick Starts are tutorials for speicific topics that advise and explain what to do.
 
-Click on the question mark button on the top right and choose **Quick Starts**.
+{{% alert title="Warning" color="secondary" %}}
+The tutorial won't work if you only do what the instructions say.
+Here's what you have to do before starting:
+
+Create a new Project.
+Choose an identifying name, e.g. `-pipeline` with your initials or name as prefix.
+
+Create a PersistentVolumeClaim named, e.g., `pipeline` and 1GiB size.
+When the tutorial asks you to start the pipeline, under **Workspaces**, choose **PVC** and select the PVC you created beforehand.
+
+Now you are ready to start the tutorial.
+{{% /alert %}}
+
+To start the tutorial, click on the question mark button on the top right and choose **Quick Starts**.
 
 ![quick-start](quickstarts.png)
 
 You are presented with several Quick Start tutorials.
 Choose the one titled **Deploying an application with a pipeline** and execute the steps outlined by the tutorial.
-
-{{% alert title="Warning" color="secondary" %}}
-Create a new Project for the Quick Start tutorial.
-Choose an identifying name, e.g. `-pipeline` with your initials or name as prefix.
-{{% /alert %}}
+Don't forget to do the additional steps mentioned in above warning.
 
 
 ### Task {{% param sectionnumber %}}.2: Explore the custom resources
@@ -45,7 +54,7 @@ Choose an identifying name, e.g. `-pipeline` with your initials or name as prefi
 Explore the different custom resources that have been created, e.g. with:
 
 ```bash
-oc get tasks --namespace <namespace>
+oc get pipeline <pipeline name> --output yaml --namespace <namespace>
 ```
 
-More information on OpenShift Pipelines can be found in the [documentation](https://docs.openshift.com/container-platform/4.6/pipelines/understanding-openshift-pipelines.html).
+More information on OpenShift Pipelines can be found in the [documentation](https://docs.openshift.com/container-platform/latest/pipelines/understanding-openshift-pipelines.html).
