@@ -4,7 +4,7 @@ metadata:
   name: example-web-python
 spec:
   rules:
-  - host: <hostname>
+  - host: <your desired prefix>.<app domain suffix>
     http:
       paths:
       - path: /

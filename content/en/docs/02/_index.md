@@ -66,7 +66,11 @@ It's best to not delete the existing Route so you can compare them.
 Bear in mind that you need to use another hostname in that case.
 
 {{% alert title="Note" color="primary" %}}
-Make use of the Kubernetes documentation about Ingress resources.
+Ask your teacher about the app domain suffix you need to use in your hostname.
+{{% /alert %}}
+
+{{% alert title="Note" color="primary" %}}
+Make use of the [Kubernetes documentation](https://kubernetes.io/docs/concepts/services-networking/ingress/) about Ingress resources.
 {{% /alert %}}
 
 
