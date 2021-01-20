@@ -7,10 +7,9 @@ menu:
     weight: 1
 ---
 
-{{< blocks/section type="section" color="light">}}
+{{< blocks/section color="light">}}
 
-{{% blocks/feature icon="fa-chalkboard-teacher" url="introduction.pdf" title="Slides" %}}
-Get the slides for this training
+{{% blocks/feature icon="fa-chalkboard-teacher" url="https://drive.google.com/uc?export=download&id=1GC_oVFOkgQKJ0mkn1M1LjGk6KaFer0c3" title="OpenShift Update" %}}
 {{% /blocks/feature %}}
 
 {{< /blocks/section >}}
