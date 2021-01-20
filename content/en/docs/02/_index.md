@@ -57,7 +57,38 @@ In OpenShift, creating an Ingress resource leads to the creation of a correspond
 {{% /alert %}}
 
 
-#### Task {{% param sectionnumber %}}.1: Create an Ingress resource
+#### Task {{% param sectionnumber %}}.1: Login on the command line
+
+In order to log in on the command line, copy the login command from the Web Console.
+
+To do that, open the Web Console and click on your username you see at the top right, then choose **Copy Login Command**.
+
+![oc-login](login-ocp.png)
+
+A new tab or window opens in your browser.
+
+{{% alert title="Note" color="primary" %}}
+You might need to log in again.
+{{% /alert %}}
+
+The page now displays a link **Display token**.
+Click it and copy the command under **Log in with this token**.
+
+Now paste the copied command on the command line.
+
+
+### Verify login
+
+If you now execute `oc version` you should see something like this (your output may vary):
+
+```
+Client Version: 4.6.9
+Server Version: 4.6.9
+Kubernetes Version: v1.19.0+7070803
+```
+
+
+#### Task {{% param sectionnumber %}}.2: Create an Ingress resource
 
 In [lab 1](../01/) you deployed the example-web-python application and created a Route with it.
 
